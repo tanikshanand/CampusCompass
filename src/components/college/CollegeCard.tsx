@@ -67,21 +67,21 @@ export default function CollegeCard({ college, isSaved = false }: CollegeCardPro
       {/* Body Content */}
       <div className="p-5 flex-grow flex flex-col justify-between space-y-5">
         {/* Key Performance Indicators */}
-        <div className="grid grid-cols-3 gap-2 text-center bg-slate-950/40 border border-slate-800/40 rounded-xl p-3">
+        <div className="grid grid-cols-3 gap-1.5 text-center bg-slate-950/40 border border-slate-800/40 rounded-xl p-3">
           <div>
-            <p className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">Tuition (Out)</p>
+            <p className="text-[9px] uppercase tracking-wide text-slate-500 font-bold">Tuition</p>
             <p className="text-xs font-bold text-slate-200 mt-0.5">
               ${college.tuitionOutState.toLocaleString()}
             </p>
           </div>
           <div>
-            <p className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">Acceptance</p>
+            <p className="text-[9px] uppercase tracking-wide text-slate-500 font-bold">Admit Rate</p>
             <p className="text-xs font-bold text-slate-200 mt-0.5">
               {Math.round(college.admissionRate * 100)}%
             </p>
           </div>
           <div>
-            <p className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">Graduation</p>
+            <p className="text-[9px] uppercase tracking-wide text-slate-500 font-bold">Grad Rate</p>
             <p className="text-xs font-bold text-slate-200 mt-0.5">
               {Math.round(college.graduationRate * 100)}%
             </p>
