@@ -172,7 +172,7 @@ async function main() {
       admissionRate: 0.04,
       graduationRate: 0.95,
       imageUrl: 'https://images.unsplash.com/photo-1564981797816-1043664bf78d?auto=format&fit=crop&q=80&w=1200',
-      logoUrl: 'https://images.unsplash.com/photo-1568790308569-b557022068aa?auto=format&fit=crop&q=80&w=120',
+      logoUrl: 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&q=80&w=120',
       websiteUrl: 'https://www.mit.edu',
       satReadingMin: 730,
       satReadingMax: 780,
